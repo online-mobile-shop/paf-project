@@ -1,4 +1,4 @@
-SellNBye E-commerce system development web application.
+#SellNBye E-commerce system development web application.
 Functianalities : User Management, Inventory Management, Order Management, Seller Management.
 Tools & Technologies : Java, Spring MVC, Hibernate, JSP, Maven, Apache Tomcat Server 9.0, MySQL database, Eclipse IDE
 Download and install eclipse.
