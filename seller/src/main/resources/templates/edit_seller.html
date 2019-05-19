@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Edit Sellers</title>
+</head>
+<body>
+   <div align= "center">
+   <h1>Edit Sellers</h1>
+   <br>
+   <form action ="#" th:action="@{/save}" th:object="${seller}" method="post">
+     <table border ="0" cellpadding ="10">
+     <tr>
+       <td>Supplier ID:</td>
+       <td><input type ="text" th:field="*{idSeller}" readonly="readonly"/></td>     
+     </tr>
+     <tr>
+       <td>Supplier Name:</td>
+       <td><input type ="text" th:field="*{Name}"></td>     
+     </tr>   
+     <tr>
+       <td>Supplier Address:</td>
+       <td><input type ="text" th:field="*{Address}"></td>     
+     </tr>   
+     <tr>
+       <td>Supply Details:</td>
+       <td><input type ="text" th:field="*{p_details}"></td>     
+     </tr>   
+     <tr>
+       <td colspan = "2"><button type="submit">Save</button></td>
+            
+     </tr> 
+     </table>
+   
+   </form>
+   </div>
+</body>
+</html>
